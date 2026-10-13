@@ -1,0 +1,4 @@
+module JSONModel {
+    umbrella header "JSONModelLib.h"
+    export *
+}
