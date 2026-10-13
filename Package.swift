@@ -17,12 +17,7 @@ let package = Package(
                 "Info.plist",
                 "JSONModel.modulemap"
             ],
-            publicHeadersPath: ".",
-            cSettings: [
-                .headerSearchPath("JSONModel"),
-                .headerSearchPath("JSONModelTransformations"),
-                .headerSearchPath("JSONModelNetworking")
-            ]
+            publicHeadersPath: "."
         )
     ]
 )
